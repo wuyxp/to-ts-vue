@@ -4,15 +4,17 @@
     <div>我怎么能吧这个项目改造成ts + vue + jsx 呢？？？</div>
     <br />
     <Home>没有加载到home？</Home>
+    <Decorator>没有加载到Decorator ？？</Decorator>
   </div>
 </template>
 
 <script>
 import Home from './Home.vue';
+import Decorator from './Decorator.vue';
 
 export default {
   name: 'HelloWorld',
-  components: { Home },
+  components: { Home, Decorator },
   props: {
     msg: String,
   },
