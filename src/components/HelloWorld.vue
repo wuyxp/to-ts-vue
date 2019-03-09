@@ -5,16 +5,18 @@
     <br />
     <Home>没有加载到home？</Home>
     <Decorator>没有加载到Decorator ？？</Decorator>
+    <Jsx>没有加载到JSX ？？？</Jsx>
   </div>
 </template>
 
 <script>
 import Home from './Home.vue';
 import Decorator from './Decorator.vue';
+import Jsx from './Jsx.tsx';
 
 export default {
   name: 'HelloWorld',
-  components: { Home, Decorator },
+  components: { Home, Decorator, Jsx },
   props: {
     msg: String,
   },

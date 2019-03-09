@@ -4,6 +4,7 @@
     "moduleResolution": "node",
     "target": "es5",
     "experimentalDecorators": true,
+    "jsx": "preserve",
     "sourceMap": true
   },
   "exclude": [
